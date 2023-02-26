@@ -1,0 +1,99 @@
+    /* #ffc233 */
+    /* btn #ff505f  #ffffff*/
+    /* font-family: 'Red Rose', cursive; */
+    /* font-family: 'Dela Gothic One', cursive; */
+
+*{
+    /* #ffc233 */
+    /* btn #ff505f  #ffffff*/
+    border: 0px;
+    padding: 0px;
+    font-family: 'Red Rose', cursive;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../assets/pexels.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffc233 ;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+}
+div ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+div img{
+    height: 200px;
+    width: 200px;
+}
+div button{
+    height: 50px;
+    width: 120px;
+    font-size: 25px;
+    background-color: #ff505f;
+    color: #fff;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+section div h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500 ;
+    align-self: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+.logo1{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    width: 100vw;height: auto;
+
+}
+.logo1 button{
+    height: 90px;
+    width: 350px;
+    position: relative;
+    left: 40%   ;
+    font-weight: 700px;
+    font-size: 40px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
+.logo1 img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+}
+button:hover{
+    
+    background-color: rgb(253, 177, 0);
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+
+
